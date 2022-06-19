@@ -6,17 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/style.css" rel="stylesheet">
+    <link href="/src/table.css" rel="stylesheet">
     <title>Soodne veebimajutus</title>
 </head>
 
 <body class="min-h-screen bg-gray-100">
     <header class="bg-white shadow-lg fixed w-full top-0 z-50">
         <ul class="max-w-6xl mx-auto p-4 inline-flex">
-            <li>
-                <a class="px-2 text-gray-700 hover:text-blue-600" href="#pilveteenus">Pilveteenus</a>
+            <li class="px-2">
+                <a class="p-2 text-gray-700 hover:text-blue-600 border-b-2 border-blue-500"
+                    href="#pilveteenus">Pilveteenus</a>
             </li>
-            <li>
-                <a class="px-2 text-gray-700 hover:text-blue-600" href="#veebimajutus">Veebimajutus</a>
+            <li class="px-2">
+                <a class="p-2 text-gray-700 hover:text-amber-600 border-b-2 border-amber-500"
+                    href="#veebimajutus">Veebimajutus</a>
+            </li>
+            <li class="px-2">
+                <a class="p-2 text-gray-700 hover:text-purple-600 border-b-2 border-purple-500"
+                    href="#pilvepõhine-salvestusruum">Pilvepõhine salvestusruum</a>
             </li>
         </ul>
     </header>
@@ -24,167 +31,35 @@
     <div class="bg-blue-600 mt-10">
         <section class="max-w-6xl mx-auto px-4 py-20 text-center">
             <h1 class="text-3xl font-bold text-blue-50 mb-2">
-                Soodne veebimajutus
+                Soodne veebimajutus Saksamaalt
             </h1>
-            <p class="text-xl text-blue-50 mb-4">Populaarsete veebimajutuste ja pilveteenuste hinnavõrdlus</p>
+            <p class="text-xl text-blue-50 mb-4">Kvaliteetne veebimajutus taskukohase hinnaga</p>
             <ul class="inline-flex gap-2 text-center">
                 <li>
-                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Zone</p>
+                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Pilveteenus</p>
                 </li>
                 <li>
-                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Contabo</p>
+                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Veebimajutus</p>
                 </li>
                 <li>
-                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Veebimajutus
+                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Pilvepõhine salvestusruum
                     </p>
-                </li>
-                <li>
-                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Radicenter</p>
                 </li>
             </ul>
         </section>
     </div>
-    
-    <div class="text-center text-3xl col-span-full px-4 py-8 text-white bg-gradient-to-r from-orange-500 to-amber-400">
-        <h2 id="veebimajutus">Veebimajutus</h2>
-    </div>
 
-    <div class="bg-orange-100 py-8">
-        <div class="max-w-6xl mx-auto">
-            <section class="grid-cols-1 grid md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
-                <div class="col-span-full bg-white shadow-sm rounded-lg p-4">
-                    <h3 class="inline-block mr-2 text-amber-500 text-xl"><span class="font-bold">Contabo</span> veebimajutus</h3>
-                </div>
-
-                <article class="bg-white rounded-lg p-4 shadow-md">
-                    <h4>Veebimajutus M</h4>
-
-                    <p class="my-4">
-                        <span class="text-3xl font-bold ">€2.99</span>
-                        <small> / kuus</small>
-                    </p>
-
-                    <ul class="text-gray-700">
-                        <li class="pb-4">
-                            <span class="font-bold">50 GB kettamahtu</span>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">20 MySQL andmebaasi</span>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">1 tasuta domeen</span><br />
-                            <small>.com, .net, .org, .biz, .info, .de</small>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">1 000 E-posti aadressi</span>
-                        </li>
-                    </ul>
-
-                    <a href="#"
-                        class="block rounded-md text-center bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-amber-50 p-2">Telli</a>
-                </article>
-
-                <article class="bg-white rounded-lg p-4 shadow-md outline outline-2 outline-amber-500">
-                    <h4 class="inline-block mr-2">CLOUD VPS L</h4>
-                    <p class="inline-block rounded bg-amber-500 text-amber-50 px-2 py-1 text-xs">Populaarseim</p>
-
-                    <p class="my-4">
-                        <span class="text-3xl font-bold ">€4.99</span>
-                        <small> / kuus</small>
-                    </p>
-
-                    <ul class="text-gray-700">
-                        <li class="pb-4">
-                            <span class="font-bold">100 GB kettamahtu</span>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">50 MySQL andmebaasi</span>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">1 tasuta domeen</span><br />
-                            <small>.com, .net, .org, .biz, .info, .de</small>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">2 000 E-posti aadressi</span>
-                        </li>
-                    </ul>
-
-                    <a href="#"
-                        class="block rounded-md text-center bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-amber-50 p-2">Telli</a>
-
-                </article>
-
-                <article class="bg-white rounded-lg p-4 shadow-md">
-                    <h4>CLOUD VPS XL</h4>
-
-                    <p class="my-4">
-                        <span class="text-3xl font-bold ">€7.99</span>
-                        <small> / kuus</small>
-                    </p>
-
-                    <ul class="text-gray-700">
-                        <li class="pb-4">
-                            <span class="font-bold">250 GB kettamahtu</span>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">100 MySQL andmebaasi</span>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">2 tasuta domeeni</span><br />
-                            <small>.com, .net, .org, .biz, .info, .de</small>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">5 000 E-posti aadressi</span>
-                        </li>
-                    </ul>
-
-                    <a href="#"
-                        class="block rounded-md text-center bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-amber-50 p-2">Telli</a>
-                </article>
-
-                <article class="bg-white rounded-lg p-4 shadow-md">
-                    <h4>CLOUD VPS XXL</h4>
-
-                    <p class="my-4">
-                        <span class="text-3xl font-bold ">€9.99</span>
-                        <small> / kuus</small>
-                    </p>
-
-                    <ul class="text-gray-700">
-                        <li class="pb-4">
-                            <span class="font-bold">500 GB kettamahtu</span>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">Piiramatu arv andmebaase</span>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">3 tasuta domeeni</span><br />
-                            <small>.com, .net, .org, .biz, .info, .de</small>
-                        </li>
-                        <li class="pb-4">
-                            <span class="font-bold">Piiramatu arv E-posti aadresse</span>
-                        </li>
-                    </ul>
-
-                    <a href="#"
-                        class="block rounded-md text-center bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-amber-50 p-2">Telli</a>
-                </article>
-            </section>
-
-        </div>
-    </div>
-
-    <div class="text-center text-3xl col-span-full px-4 py-8 text-white bg-gradient-to-r from-indigo-500 to-blue-500">
+    <div class="text-center text-3xl col-span-full px-4 py-8 text-white bg-gradient-to-r from-indigo-600 to-blue-500">
         <h2 id="pilveteenus" class="drop-shadow-lg">Pilveteenus</h2>
-        
+
     </div>
 
-    <div class="bg-indigo-50 py-8">
+    <div class="bg-blue-50 py-8 mb-4">
         <div class="max-w-6xl mx-auto">
             <section class="grid-cols-1 grid md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
                 <div class="col-span-full bg-white shadow-sm rounded-lg p-4">
                     <h3 class="inline-block mr-2 text-blue-500 text-xl"><span class="font-bold">Contabo</span> VPS</h3>
-                    <p class="inline-block rounded border border-blue-600 text-blue-600 px-2 py-1 text-xs">Cloud</p>
+                    <p class="inline-block rounded border border-blue-600 text-blue-600 px-2 py-1 text-xs">SSD</p>
                 </div>
 
                 <article class="bg-white rounded-lg p-4 shadow-md">
@@ -197,21 +72,21 @@
 
                     <ul class="text-gray-700">
                         <li class="pb-4">
-                            <span class="font-bold">4-tuumaline</span>
+                            <b>4-tuumaline</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">8 GB RAM</span>
+                            <b>8 GB RAM</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">50 GB NVMe</span><br />
+                            <b>50 GB NVMe</b><br />
                             <small>või 200 GB SSD</small>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">1 tagavarakoopia</span>
+                            <b>1 tagavarakoopia</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">32 TB võrguliiklust</span><br />
-                            <small>Piiramatu sissetulev liiklus</small>
+                            <b>32 TB võrguliiklust</b><br />
+                            <small>Piiramatu sisenev liiklus</small>
                         </li>
                     </ul>
                     <a href="#"
@@ -229,21 +104,21 @@
 
                     <ul class="text-gray-700">
                         <li class="pb-4">
-                            <span class="font-bold">6-tuumaline</span>
+                            <b>6-tuumaline</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">16 GB RAM</span>
+                            <b>16 GB RAM</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">100 GB NVMe</span><br />
+                            <b>100 GB NVMe</b><br />
                             <small>või 400 GB SSD</small>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">2 tagavarakoopiat</span>
+                            <b>2 tagavarakoopiat</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">32 TB võrguliiklust</span><br />
-                            <small>Piiramatu sissetulev liiklus</small>
+                            <b>32 TB võrguliiklust</b><br />
+                            <small>Piiramatu sisenev liiklus</small>
                         </li>
                     </ul>
                     <a href="#"
@@ -261,21 +136,21 @@
 
                     <ul class="text-gray-700">
                         <li class="pb-4">
-                            <span class="font-bold">8-tuumaline</span>
+                            <b>8-tuumaline</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">30 GB RAM</span>
+                            <b>30 GB RAM</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">200 GB NVMe</span><br />
+                            <b>200 GB NVMe</b><br />
                             <small>või 800 GB SSD</small>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">3 tagavarakoopiat</span>
+                            <b>3 tagavarakoopiat</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">32 TB võrguliiklust</span><br />
-                            <small>Piiramatu sissetulev liiklus</small>
+                            <b>32 TB võrguliiklust</b><br />
+                            <small>Piiramatu sisenev liiklus</small>
                         </li>
                     </ul>
                     <a href="#"
@@ -292,21 +167,21 @@
 
                     <ul class="text-gray-700">
                         <li class="pb-4">
-                            <span class="font-bold">10-tuumaline</span>
+                            <b>10-tuumaline</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">60 GB RAM</span>
+                            <b>60 GB RAM</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">400 GB NVMe</span><br />
+                            <b>400 GB NVMe</b><br />
                             <small>või 1 600 GB SSD</small>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">1 tagavarakoopia</span>
+                            <b>4 tagavarakoopiat</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">32 TB võrguliiklust</span><br />
-                            <small>Piiramatu sissetulev liiklus</small>
+                            <b>32 TB võrguliiklust</b><br />
+                            <small>Piiramatu sisenev liiklus</small>
                         </li>
                     </ul>
                     <a href="#"
@@ -316,10 +191,10 @@
         </div>
 
         <div class="max-w-6xl mx-auto">
-            <section class="grid-cols-1 grid md:grid-cols-3 lg:grid-cols-3 gap-4 p-4 mb-4">
+            <section class="grid-cols-1 grid md:grid-cols-3 lg:grid-cols-3 gap-4 p-4">
                 <div class="col-span-full bg-white shadow-sm rounded-lg p-4">
                     <h3 class="inline-block mr-2 text-blue-500 text-xl"><span class="font-bold">Contabo</span> VPS</h3>
-                    <p class="inline-block rounded border border-blue-600 text-blue-600 px-2 py-1 text-xs">Storage</p>
+                    <p class="inline-block rounded border border-blue-600 text-blue-600 px-2 py-1 text-xs">HDD</p>
                 </div>
 
                 <article class="bg-white rounded-lg p-4 shadow-md">
@@ -332,20 +207,20 @@
 
                     <ul class="text-gray-700">
                         <li class="pb-4">
-                            <span class="font-bold">2-tuumaline</span>
+                            <b>2-tuumaline</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">4 GB RAM</span>
+                            <b>4 GB RAM</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">400 GB HDD</span><br />
+                            <b>400 GB HDD</b><br />
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">100 Mbit/s Port</span>
+                            <b>100 Mbit/s Port</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">32 TB võrguliiklust</span><br />
-                            <small>Piiramatu sissetulev liiklus</small>
+                            <b>32 TB võrguliiklust</b><br />
+                            <small>Piiramatu sisenev liiklus</small>
                         </li>
                     </ul>
                     <a href="#"
@@ -363,20 +238,20 @@
 
                     <ul class="text-gray-700">
                         <li class="pb-4">
-                            <span class="font-bold">4-tuumaline</span>
+                            <b>4-tuumaline</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">10 GB RAM</span>
+                            <b>10 GB RAM</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">700 GB HDD</span><br />
+                            <b>700 GB HDD</b><br />
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">100 Mbit/s Port</span>
+                            <b>100 Mbit/s Port</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">32 TB võrguliiklust</span><br />
-                            <small>Piiramatu sissetulev liiklus</small>
+                            <b>32 TB võrguliiklust</b><br />
+                            <small>Piiramatu sisenev liiklus</small>
                         </li>
                     </ul>
                     <a href="#"
@@ -394,25 +269,341 @@
 
                     <ul class="text-gray-700">
                         <li class="pb-4">
-                            <span class="font-bold">6-tuumaline</span>
+                            <b>6-tuumaline</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">20 GB RAM</span>
+                            <b>20 GB RAM</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">1 400 GB HDD</span><br />
+                            <b>1 400 GB HDD</b><br />
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">1000 Mbit/s Port</span>
+                            <b>1000 Mbit/s Port</b>
                         </li>
                         <li class="pb-4">
-                            <span class="font-bold">32 TB võrguliiklust</span><br />
-                            <small>Piiramatu sissetulev liiklus</small>
+                            <b>32 TB võrguliiklust</b><br />
+                            <small>Piiramatu sisenev liiklus</small>
                         </li>
                     </ul>
                     <a href="#"
                         class="block rounded-md text-center bg-blue-500 hover:bg-blue-400 active:bg-blue-600 text-blue-50 p-2">Telli</a>
                 </article>
+            </section>
+        </div>
+
+        <div class="max-w-6xl mx-auto">
+            <section class="p-4">
+                <div class="col-span-full bg-white shadow-sm rounded-lg p-4 mb-4">
+                    <h3 class="inline-block mr-2 text-blue-500 text-xl"><span class="font-bold">Contabo</span> VS <span class="font-bold">Zone</span></h3>
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Paket</th>
+                            <th scope="col">Hind</th>
+                            <th scope="col">RAM</th>
+                            <th scope="col">CPU</th>
+                            <th scope="col">SSD</th>
+                            <th scope="col"><p>Võrgu</p><p>liiklus</p></th>
+                            <th scope="col">Sisenev liiklus</th>
+                            <th scope="col">Väljuv liiklus</th>
+                            <th scope="col">Tasuta koopiad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Teenusepakkuja">Contabo</td>
+                            <td data-label="Paket">VPS S</td>
+                            <td data-label="Hind">€4.99</td>
+                            <td data-label="RAM">8 GB</td>
+                            <td data-label="CPU">4 tuuma</td>
+                            <td data-label="SSD">200 GB</td>
+                            <td data-label="Võrguliiklus">32 TB</td>
+                            <td data-label="Sisenev liiklus">Piiramatu</td>
+                            <td data-label="Väljuv liiklus">200 Mbit/s</td>
+                            <td data-label="Tasuta koopiad">1</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Teenusepakkuja">Contabo</td>
+                            <td data-label="Paket">VPS M</td>
+                            <td data-label="Hind">€8.99</td>
+                            <td data-label="RAM">16 GB</td>
+                            <td data-label="CPU">6 tuuma</td>
+                            <td data-label="SSD">400 GB</td>
+                            <td data-label="Võrguliiklus">32 TB</td>
+                            <td data-label="Sisenev liiklus">Piiramatu</td>
+                            <td data-label="Väljuv liiklus">400 Mbit/s</td>
+                            <td data-label="Tasuta koopiad">2</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Teenusepakkuja">Zone</td>
+                            <td data-label="Paket">VPS I</td>
+                            <td data-label="Hind">€9.95</td>
+                            <td data-label="RAM">2 GB</td>
+                            <td data-label="CPU">1 tuum</td>
+                            <td data-label="SSD">30 GB</td>
+                            <td data-label="Võrguliiklus">2 TB</td>
+                            <td data-label="Sisenev liiklus">1 Gbit/s</td>
+                            <td data-label="Väljuv liiklus">100 Mbit/s</td>
+                            <td data-label="Tasuta koopiad">0</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Teenusepakkuja">Contabo</td>
+                            <td data-label="Paket">VPS L</td>
+                            <td data-label="Hind">€14.99</td>
+                            <td data-label="RAM">30 GB</td>
+                            <td data-label="CPU">8 tuuma</td>
+                            <td data-label="SSD">800 GB</td>
+                            <td data-label="Võrguliiklus">32 TB</td>
+                            <td data-label="Sisenev liiklus">Piiramatu</td>
+                            <td data-label="Väljuv liiklus">600 Mbit/s</td>
+                            <td data-label="Tasuta koopiad">3</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Teenusepakkuja">Zone</td>
+                            <td data-label="Paket">VPS II</td>
+                            <td data-label="Hind">€19.95</td>
+                            <td data-label="RAM">4 GB</td>
+                            <td data-label="CPU">2 tuuma</td>
+                            <td data-label="SSD">50 GB</td>
+                            <td data-label="Võrguliiklus">3 TB</td>
+                            <td data-label="Sisenev liiklus">1 Gbit/s</td>
+                            <td data-label="Väljuv liiklus">100 Mbit/s</td>
+                            <td data-label="Tasuta koopiad">0</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Teenusepakkuja">Contabo</td>
+                            <td data-label="Paket">VPS XL</td>
+                            <td data-label="Hind">€26.99</td>
+                            <td data-label="RAM">60 GB</td>
+                            <td data-label="CPU">10 tuuma</td>
+                            <td data-label="SSD">1 600 GB</td>
+                            <td data-label="Võrguliiklus">32 TB</td>
+                            <td data-label="Sisenev liiklus">Piiramatu</td>
+                            <td data-label="Väljuv liiklus">1 000 Mbit/s</td>
+                            <td data-label="Tasuta koopiad">4</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Teenusepakkuja">Zone</td>
+                            <td data-label="Paket">VPS III</td>
+                            <td data-label="Hind">€39.95</td>
+                            <td data-label="RAM">8 GB</td>
+                            <td data-label="CPU">3 tuuma</td>
+                            <td data-label="SSD">100 GB</td>
+                            <td data-label="Võrguliiklus">4 TB</td>
+                            <td data-label="Sisenev liiklus">1 Gbit/s</td>
+                            <td data-label="Väljuv liiklus">100 Mbit/s</td>
+                            <td data-label="Tasuta koopiad">0</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Teenusepakkuja">Zone</td>
+                            <td data-label="Paket">VPS IV</td>
+                            <td data-label="Hind">€69.95</td>
+                            <td data-label="RAM">12 GB</td>
+                            <td data-label="CPU">4 tuuma</td>
+                            <td data-label="SSD">150 GB</td>
+                            <td data-label="Võrguliiklus">5 TB</td>
+                            <td data-label="Sisenev liiklus">1 Gbit/s</td>
+                            <td data-label="Väljuv liiklus">100 Mbit/s</td>
+                            <td data-label="Tasuta koopiad">0</td>
+                        </tr>                    
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        
+        <div class="max-w-6xl mx-auto">
+            <section class="px-4">
+                <p class="bg-white shadow-md border-solid border-l-2 border-blue-500 p-4">Hindadele lisandub käibemaks</p>
+            </section>
+        </div>
+    </div>
+
+    <div class="text-center text-3xl col-span-full px-4 py-8 text-white bg-gradient-to-r from-orange-500 to-amber-400">
+        <h2 id="veebimajutus">Veebimajutus</h2>
+    </div>
+
+    <div class="bg-orange-50 py-8">
+        <div class="max-w-6xl mx-auto">
+            <section class="grid-cols-1 grid md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
+                <div class="col-span-full bg-white shadow-sm rounded-lg p-4">
+                    <h3 class="inline-block mr-2 text-amber-500 text-xl"><span class="font-bold">Contabo</span>
+                        veebimajutus</h3>
+                </div>
+
+                <article class="bg-white rounded-lg p-4 shadow-md">
+                    <h4>Webspace M</h4>
+
+                    <p class="my-4">
+                        <span class="text-3xl font-bold ">€2.99</span>
+                        <small> / kuus</small>
+                    </p>
+
+                    <ul class="text-gray-700">
+                        <li class="pb-4">
+                            <b>50 GB kettamahtu</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>20 MySQL andmebaasi</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>1 tasuta domeen</b><br />
+                            <small>.com, .net, .org, .biz, .info, .de</small>
+                        </li>
+                        <li class="pb-4">
+                            <b>1 000 E-posti aadressi</b>
+                        </li>
+                    </ul>
+
+                    <a href="#"
+                        class="block rounded-md text-center bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-amber-50 p-2">Telli</a>
+                </article>
+
+                <article class="bg-white rounded-lg p-4 shadow-md outline outline-2 outline-amber-500">
+                    <h4 class="inline-block mr-2">Webspace L</h4>
+                    <p class="inline-block rounded bg-amber-500 text-amber-50 px-2 py-1 text-xs">Populaarseim</p>
+
+                    <p class="my-4">
+                        <span class="text-3xl font-bold ">€4.99</span>
+                        <small> / kuus</small>
+                    </p>
+
+                    <ul class="text-gray-700">
+                        <li class="pb-4">
+                            <b>100 GB kettamahtu</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>50 MySQL andmebaasi</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>1 tasuta domeen</b><br />
+                            <small>.com, .net, .org, .biz, .info, .de</small>
+                        </li>
+                        <li class="pb-4">
+                            <b>2 000 E-posti aadressi</b>
+                        </li>
+                    </ul>
+
+                    <a href="#"
+                        class="block rounded-md text-center bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-amber-50 p-2">Telli</a>
+
+                </article>
+
+                <article class="bg-white rounded-lg p-4 shadow-md">
+                    <h4>Webspace XL</h4>
+
+                    <p class="my-4">
+                        <span class="text-3xl font-bold ">€7.99</span>
+                        <small> / kuus</small>
+                    </p>
+
+                    <ul class="text-gray-700">
+                        <li class="pb-4">
+                            <b>250 GB kettamahtu</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>100 MySQL andmebaasi</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>2 tasuta domeeni</b><br />
+                            <small>.com, .net, .org, .biz, .info, .de</small>
+                        </li>
+                        <li class="pb-4">
+                            <b>5 000 E-posti aadressi</b>
+                        </li>
+                    </ul>
+
+                    <a href="#"
+                        class="block rounded-md text-center bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-amber-50 p-2">Telli</a>
+                </article>
+
+                <article class="bg-white rounded-lg p-4 shadow-md">
+                    <h4>Webspace XXL</h4>
+
+                    <p class="my-4">
+                        <span class="text-3xl font-bold ">€9.99</span>
+                        <small> / kuus</small>
+                    </p>
+
+                    <ul class="text-gray-700">
+                        <li class="pb-4">
+                            <b>500 GB kettamahtu</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>Piiramatu arv andmebaase</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>3 tasuta domeeni</b><br />
+                            <small>.com, .net, .org, .biz, .info, .de</small>
+                        </li>
+                        <li class="pb-4">
+                            <b>Piiramatu arv E-posti aadresse</b>
+                        </li>
+                    </ul>
+
+                    <a href="#"
+                        class="block rounded-md text-center bg-amber-500 hover:bg-amber-400 active:bg-amber-600 text-amber-50 p-2">Telli</a>
+                </article>
+            </section>
+        </div>
+        
+        <div class="max-w-6xl mx-auto">
+            <section class="px-4">
+                <p class="bg-white shadow-md border-solid border-l-2 border-amber-500 p-4">Hindadele lisandub käibemaks</p>
+            </section>
+        </div>
+    </div>
+    
+    <div class="text-center text-3xl col-span-full px-4 py-8 text-white bg-gradient-to-r from-purple-500 to-indigo-400">
+        <h2 id="pilvepõhine-salvestusruum">Pilvepõhine salvestusruum</h2>
+    </div>
+
+    <div class="bg-purple-50 py-8">
+        <div class="max-w-6xl mx-auto">
+            <section class="p-4">
+                <div class="col-span-full bg-white shadow-sm rounded-lg p-4 mb-4">
+                    <h3 class="inline-block mr-2 text-purple-500 text-xl"><span class="font-bold">Contabo </span>
+                        S3</h3>
+                </div>
+
+                <article class="bg-white rounded-lg p-4 shadow-md">
+                    <p class="my-4">
+                        <span class="text-3xl font-bold ">€2.49</span>
+                        <small> / kuus</small>
+                    </p>
+
+                    <ul class="text-gray-700">
+                        <li class="pb-4">
+                            <b>250 GB kettamahtu</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>S3 ühilduvus</b>
+                        </li>
+                        <li class="pb-4">
+                            <b><i>Drag-n-drop</i> veebiliides</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>Skaleeritav</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>Juurdepääsu õiguste haldamine</b>
+                        </li>
+                        <li class="pb-4">
+                            <b>DDoS kaitse</b>
+                        </li>
+                    </ul>
+
+                    <a href="#"
+                        class="block rounded-md text-center bg-purple-500 hover:bg-purple-400 active:bg-purple-600 text-purple-50 p-2">Telli</a>
+                </article>
+            </section>
+        </div>
+        
+        <div class="max-w-6xl mx-auto">
+            <section class="px-4">
+                <p class="bg-white shadow-md border-solid border-l-2 border-purple-500 p-4">Hinnale lisandub käibemaks</p>
             </section>
         </div>
     </div>
