@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/style.css" rel="stylesheet">
-    <link href="/src/table.css" rel="stylesheet">
+    <link href="/src/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
     <title>Soodne veebimajutus</title>
 </head>
 
@@ -39,10 +44,12 @@
                     <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Pilveteenus</p>
                 </li>
                 <li>
-                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Veebimajutus</p>
+                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Veebimajutus
+                    </p>
                 </li>
                 <li>
-                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Pilvepõhine salvestusruum
+                    <p class="inline-block rounded border border-blue-50 text-blue-50 px-2 py-1 text-xs">Pilvepõhine
+                        salvestusruum
                     </p>
                 </li>
             </ul>
@@ -70,7 +77,7 @@
                         <small> / kuus</small>
                     </p>
 
-                    <ul class="text-gray-700">
+                    <ul role="list" class="text-gray-700">
                         <li class="pb-4">
                             <b>4-tuumaline</b>
                         </li>
@@ -102,7 +109,7 @@
                         <small> / kuus</small>
                     </p>
 
-                    <ul class="text-gray-700">
+                    <ul role="list" class="text-gray-700">
                         <li class="pb-4">
                             <b>6-tuumaline</b>
                         </li>
@@ -134,7 +141,7 @@
                         <small> / kuus</small>
                     </p>
 
-                    <ul class="text-gray-700">
+                    <ul role="list" class="text-gray-700">
                         <li class="pb-4">
                             <b>8-tuumaline</b>
                         </li>
@@ -165,7 +172,7 @@
                         <small> / kuus</small>
                     </p>
 
-                    <ul class="text-gray-700">
+                    <ul role="list" class="text-gray-700">
                         <li class="pb-4">
                             <b>10-tuumaline</b>
                         </li>
@@ -205,7 +212,7 @@
                         <small> / kuus</small>
                     </p>
 
-                    <ul class="text-gray-700">
+                    <ul role="list" class="text-gray-700">
                         <li class="pb-4">
                             <b>2-tuumaline</b>
                         </li>
@@ -236,7 +243,7 @@
                         <small> / kuus</small>
                     </p>
 
-                    <ul class="text-gray-700">
+                    <ul role="list" class="text-gray-700">
                         <li class="pb-4">
                             <b>4-tuumaline</b>
                         </li>
@@ -267,7 +274,7 @@
                         <small> / kuus</small>
                     </p>
 
-                    <ul class="text-gray-700">
+                    <ul role="list" class="text-gray-700">
                         <li class="pb-4">
                             <b>6-tuumaline</b>
                         </li>
@@ -294,129 +301,251 @@
         <div class="max-w-6xl mx-auto">
             <section class="p-4">
                 <div class="col-span-full bg-white shadow-sm rounded-lg p-4 mb-4">
-                    <h3 class="inline-block mr-2 text-blue-500 text-xl"><span class="font-bold">Contabo</span> VS <span class="font-bold">Zone</span></h3>
+                    <h3 class="inline-block mr-2 text-blue-500 text-xl">
+                        <span class="font-bold">Contabo</span> VS <span class="font-bold">Zone</span>
+                    </h3>
                 </div>
-                
-                <table>
-                    <thead>
-                        <tr>
-                            <th scope="col"></th>
-                            <th scope="col">Paket</th>
-                            <th scope="col">Hind</th>
-                            <th scope="col">RAM</th>
-                            <th scope="col">CPU</th>
-                            <th scope="col">SSD</th>
-                            <th scope="col"><p>Võrgu</p><p>liiklus</p></th>
-                            <th scope="col">Sisenev liiklus</th>
-                            <th scope="col">Väljuv liiklus</th>
-                            <th scope="col">Tasuta koopiad</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td data-label="Teenusepakkuja">Contabo</td>
-                            <td data-label="Paket">VPS S</td>
-                            <td data-label="Hind">€4.99</td>
-                            <td data-label="RAM">8 GB</td>
-                            <td data-label="CPU">4 tuuma</td>
-                            <td data-label="SSD">200 GB</td>
-                            <td data-label="Võrguliiklus">32 TB</td>
-                            <td data-label="Sisenev liiklus">Piiramatu</td>
-                            <td data-label="Väljuv liiklus">200 Mbit/s</td>
-                            <td data-label="Tasuta koopiad">1</td>
-                        </tr>
-                        <tr>
-                            <td data-label="Teenusepakkuja">Contabo</td>
-                            <td data-label="Paket">VPS M</td>
-                            <td data-label="Hind">€8.99</td>
-                            <td data-label="RAM">16 GB</td>
-                            <td data-label="CPU">6 tuuma</td>
-                            <td data-label="SSD">400 GB</td>
-                            <td data-label="Võrguliiklus">32 TB</td>
-                            <td data-label="Sisenev liiklus">Piiramatu</td>
-                            <td data-label="Väljuv liiklus">400 Mbit/s</td>
-                            <td data-label="Tasuta koopiad">2</td>
-                        </tr>
-                        <tr>
-                            <td data-label="Teenusepakkuja">Zone</td>
-                            <td data-label="Paket">VPS I</td>
-                            <td data-label="Hind">€9.95</td>
-                            <td data-label="RAM">2 GB</td>
-                            <td data-label="CPU">1 tuum</td>
-                            <td data-label="SSD">30 GB</td>
-                            <td data-label="Võrguliiklus">2 TB</td>
-                            <td data-label="Sisenev liiklus">1 Gbit/s</td>
-                            <td data-label="Väljuv liiklus">100 Mbit/s</td>
-                            <td data-label="Tasuta koopiad">0</td>
-                        </tr>
-                        <tr>
-                            <td data-label="Teenusepakkuja">Contabo</td>
-                            <td data-label="Paket">VPS L</td>
-                            <td data-label="Hind">€14.99</td>
-                            <td data-label="RAM">30 GB</td>
-                            <td data-label="CPU">8 tuuma</td>
-                            <td data-label="SSD">800 GB</td>
-                            <td data-label="Võrguliiklus">32 TB</td>
-                            <td data-label="Sisenev liiklus">Piiramatu</td>
-                            <td data-label="Väljuv liiklus">600 Mbit/s</td>
-                            <td data-label="Tasuta koopiad">3</td>
-                        </tr>
-                        <tr>
-                            <td data-label="Teenusepakkuja">Zone</td>
-                            <td data-label="Paket">VPS II</td>
-                            <td data-label="Hind">€19.95</td>
-                            <td data-label="RAM">4 GB</td>
-                            <td data-label="CPU">2 tuuma</td>
-                            <td data-label="SSD">50 GB</td>
-                            <td data-label="Võrguliiklus">3 TB</td>
-                            <td data-label="Sisenev liiklus">1 Gbit/s</td>
-                            <td data-label="Väljuv liiklus">100 Mbit/s</td>
-                            <td data-label="Tasuta koopiad">0</td>
-                        </tr>
-                        <tr>
-                            <td data-label="Teenusepakkuja">Contabo</td>
-                            <td data-label="Paket">VPS XL</td>
-                            <td data-label="Hind">€26.99</td>
-                            <td data-label="RAM">60 GB</td>
-                            <td data-label="CPU">10 tuuma</td>
-                            <td data-label="SSD">1 600 GB</td>
-                            <td data-label="Võrguliiklus">32 TB</td>
-                            <td data-label="Sisenev liiklus">Piiramatu</td>
-                            <td data-label="Väljuv liiklus">1 000 Mbit/s</td>
-                            <td data-label="Tasuta koopiad">4</td>
-                        </tr>
-                        <tr>
-                            <td data-label="Teenusepakkuja">Zone</td>
-                            <td data-label="Paket">VPS III</td>
-                            <td data-label="Hind">€39.95</td>
-                            <td data-label="RAM">8 GB</td>
-                            <td data-label="CPU">3 tuuma</td>
-                            <td data-label="SSD">100 GB</td>
-                            <td data-label="Võrguliiklus">4 TB</td>
-                            <td data-label="Sisenev liiklus">1 Gbit/s</td>
-                            <td data-label="Väljuv liiklus">100 Mbit/s</td>
-                            <td data-label="Tasuta koopiad">0</td>
-                        </tr>
-                        <tr>
-                            <td data-label="Teenusepakkuja">Zone</td>
-                            <td data-label="Paket">VPS IV</td>
-                            <td data-label="Hind">€69.95</td>
-                            <td data-label="RAM">12 GB</td>
-                            <td data-label="CPU">4 tuuma</td>
-                            <td data-label="SSD">150 GB</td>
-                            <td data-label="Võrguliiklus">5 TB</td>
-                            <td data-label="Sisenev liiklus">1 Gbit/s</td>
-                            <td data-label="Väljuv liiklus">100 Mbit/s</td>
-                            <td data-label="Tasuta koopiad">0</td>
-                        </tr>                    
-                    </tbody>
-                </table>
+
+                <div class="grid-cols-1 grid md:grid-cols-5 gap-2">
+                    <div class="hidden md:grid col-span-full grid-cols-1 md:grid-cols-5 gap-2 text-center">
+                        <div class="bg-white shadow-sm rounded-xl"></div>
+                        <div class="bg-white shadow-sm rounded-xl p-4">
+                            <p>Contabo</p>
+                            <p class="font-black text-3xl py-2">€4.99</p>
+                            <p class="font-bold">Cloud VPS S</p>
+                        </div>
+                        <div class="bg-white shadow-sm rounded-xl p-4">
+                            <p>Contabo</p>
+                            <p class="font-black text-3xl py-2">€8.99</p>
+                            <p class="font-bold">Cloud VPS M</p>
+                        </div>
+                        <div class="bg-white shadow-sm rounded-xl p-4">
+                            <p>Zone</p>
+                            <p class="font-black text-3xl py-2">€9.95</p>
+                            <p class="font-bold">VPS I</p>
+                        </div>
+                        <div class="bg-white shadow-sm rounded-xl p-4">
+                            <p>Zone</p>
+                            <p class="font-black text-3xl py-2">€19,95</p>
+                            <p class="font-bold">VPS II</p>
+                        </div>
+                    </div>
+
+                    <ul role="list" class="hidden md:inline-block">
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">1</span>
+                            RAM
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">2</span>
+                            CPU
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">3</span>
+                            SSD
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">4</span>
+                            Võrguliiklus
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">5</span>
+                            Sisenev liiklus
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">6</span>
+                            Väljuv liiklus
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">7</span>
+                            Tasuta koopiad
+                        </li>
+                    </ul>
+
+                    <ul role="list" class="text-center mb-4">
+                        <li class="block md:hidden bg-white shadow-sm rounded-xl p-4 mb-2">
+                            <p>Contabo</p>
+                            <p class="font-black text-3xl py-2">€4.99</p>
+                            <p class="font-bold">Cloud VPS S</p>
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">8 GB RAM</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">4 tuuma</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">200 GB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">32 TB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">Piiramatu</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">200 Mbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">1</li>
+                    </ul>
+
+                    <ul role="list" class="text-center mb-4">
+                        <li class="block md:hidden bg-white shadow-sm rounded-xl p-4 mb-2">
+                            <p>Contabo</p>
+                            <p class="font-black text-3xl py-2">€8.99</p>
+                            <p class="font-bold">Cloud VPS M</p>
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">16 GB RAM</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">6 tuum</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">400 GB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">32 TB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">Piiramatu</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">400 Mbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">2</li>
+                    </ul>
+
+                    <ul role="list" class="text-center mb-4">
+                        <li class="block md:hidden bg-white shadow-sm rounded-xl p-4 mb-2">
+                            <p>Zone</p>
+                            <p class="font-black text-3xl py-2">€9.95</p>
+                            <p class="font-bold">VPS I</p>
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">2 GB RAM</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">1 tuum</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">30 GB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">2 TB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">1 Gbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">100 Mbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">0</li>
+                    </ul>
+
+                    <ul role="list" class="text-center mb-4">
+                        <li class="block md:hidden bg-white shadow-sm rounded-xl p-4 mb-2">
+                            <p>Zone</p>
+                            <p class="font-black text-3xl py-2">€19,95</p>
+                            <p class="font-bold">VPS II</p>
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">4 GB RAM</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">2 tuuma</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">50 GB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">3 TB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">1 Gbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">100 Mbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">0</li>
+                    </ul>
+                </div>
+
+                <div class="grid-cols-1 grid md:grid-cols-5 gap-2">
+                    <div class="hidden md:grid col-span-full grid-cols-1 md:grid-cols-5 gap-2 text-center">
+                        <div class="bg-white shadow-sm rounded-xl"></div>
+                        <div class="bg-white shadow-sm rounded-xl p-4">
+                            <p>Contabo</p>
+                            <p class="font-black text-3xl py-2">€14.99</p>
+                            <p class="font-bold">Cloud VPS L</p>
+                        </div>
+                        <div class="bg-white shadow-sm rounded-xl p-4">
+                            <p>Contabo</p>
+                            <p class="font-black text-3xl py-2">€26.99</p>
+                            <p class="font-bold">Cloud VPS XL</p>
+                        </div>
+                        <div class="bg-white shadow-sm rounded-xl p-4">
+                            <p>Zone</p>
+                            <p class="font-black text-3xl py-2">€39.95</p>
+                            <p class="font-bold">VPS III</p>
+                        </div>
+                        <div class="bg-white shadow-sm rounded-xl p-4">
+                            <p>Zone</p>
+                            <p class="font-black text-3xl py-2">€69,95</p>
+                            <p class="font-bold">VPS IV</p>
+                        </div>
+                    </div>
+
+                    <ul role="list" class="hidden md:inline-block">
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">1</span>
+                            RAM
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">2</span>
+                            CPU
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">3</span>
+                            SSD
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">4</span>
+                            Võrguliiklus
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">5</span>
+                            Sisenev liiklus
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">6</span>
+                            Väljuv liiklus
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl p-2 mb-2">
+                            <span class="inline-block bg-slate-500 text-white w-6 text-center rounded-xl mr-1">7</span>
+                            Tasuta koopiad
+                        </li>
+                    </ul>
+
+                    <ul role="list" class="text-center mb-4">
+                        <li class="block md:hidden bg-white shadow-sm rounded-xl p-4 mb-2">
+                            <p>Contabo</p>
+                            <p class="font-black text-3xl py-2">€14.99</p>
+                            <p class="font-bold">Cloud VPS L</p>
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">30 GB RAM</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">8 tuuma</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">800 GB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">32 TB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">Piiramatu</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">600 Mbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">3</li>
+                    </ul>
+
+                    <ul role="list" class="text-center mb-4">
+                        <li class="block md:hidden bg-white shadow-sm rounded-xl p-4 mb-2">
+                            <p>Contabo</p>
+                            <p class="font-black text-3xl py-2">€26.99</p>
+                            <p class="font-bold">Cloud VPS XL</p>
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">60 GB RAM</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">10 tuum</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">1 600 GB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">32 TB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">Piiramatu</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">1 000 Mbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">4</li>
+                    </ul>
+
+                    <ul role="list" class="text-center mb-4">
+                        <li class="block md:hidden bg-white shadow-sm rounded-xl p-4 mb-2">
+                            <p>Zone</p>
+                            <p class="font-black text-3xl py-2">€39.95</p>
+                            <p class="font-bold">VPS I</p>
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">8 GB RAM</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">3 tuuma</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">100 GB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">4 TB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">1 Gbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">100 Mbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">0</li>
+                    </ul>
+
+                    <ul role="list" class="text-center mb-4">
+                        <li class="block md:hidden bg-white shadow-sm rounded-xl p-4 mb-2">
+                            <p>Zone</p>
+                            <p class="font-black text-3xl py-2">€69,95</p>
+                            <p class="font-bold">VPS II</p>
+                        </li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">12 GB RAM</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">4 tuuma</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">150 GB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">5 TB</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">1 Gbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">100 Mbit/s</li>
+                        <li class="bg-white shadow-sm rounded-xl px-4 py-2 mb-2">0</li>
+                    </ul>
+                </div>
             </section>
         </div>
-        
+
         <div class="max-w-6xl mx-auto">
             <section class="px-4">
-                <p class="bg-white shadow-md border-solid border-l-2 border-blue-500 p-4">Hindadele lisandub käibemaks</p>
+                <p class="bg-white shadow-md border-solid border-l-2 border-blue-500 p-4">Hindadele lisandub käibemaks
+                </p>
             </section>
         </div>
     </div>
@@ -548,14 +677,15 @@
                 </article>
             </section>
         </div>
-        
+
         <div class="max-w-6xl mx-auto">
             <section class="px-4">
-                <p class="bg-white shadow-md border-solid border-l-2 border-amber-500 p-4">Hindadele lisandub käibemaks</p>
+                <p class="bg-white shadow-md border-solid border-l-2 border-amber-500 p-4">Hindadele lisandub käibemaks
+                </p>
             </section>
         </div>
     </div>
-    
+
     <div class="text-center text-3xl col-span-full px-4 py-8 text-white bg-gradient-to-r from-purple-500 to-indigo-400">
         <h2 id="pilvepõhine-salvestusruum">Pilvepõhine salvestusruum</h2>
     </div>
@@ -600,10 +730,11 @@
                 </article>
             </section>
         </div>
-        
+
         <div class="max-w-6xl mx-auto">
             <section class="px-4">
-                <p class="bg-white shadow-md border-solid border-l-2 border-purple-500 p-4">Hinnale lisandub käibemaks</p>
+                <p class="bg-white shadow-md border-solid border-l-2 border-purple-500 p-4">Hinnale lisandub käibemaks
+                </p>
             </section>
         </div>
     </div>
