@@ -6,4 +6,4 @@ Website for Contabo's Affiliate Program
 
 Start Tailwind build process:
 
-  npx tailwindcss -i ./src/tailwind.css -o ./docs/style.css --watch
+  npx tailwindcss -i ./src/tailwind.css -o ./src/style.css --watch
